@@ -124,11 +124,11 @@ export const Home: FC<{}> = () => {
             id="my-video"
             className="video-js"
             controls
-            preload="auto"
+            preload="metadata"
             width={imageWidth*0.8}
             data-setup="{}"
           >
-            <source src="/video.mp4" type="video/mp4"/>
+            <source src="/video.mp4#t=0.1" type="video/mp4"/>
             <p className="vjs-no-js">
               To view this video please enable JavaScript, and consider upgrading to a
               web browser that
