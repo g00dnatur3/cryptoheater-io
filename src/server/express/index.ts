@@ -84,8 +84,8 @@ app.use(errorHanlder);
 //   rejectUnauthorized: false,
 // };
 
-//let port = 9091; // dev-port
-let port = 80; // dev-port
+let port = 9092; // dev-port
+// let port = 80; // dev-port
 let httpsServer;
 
 if (env === 'production') {
