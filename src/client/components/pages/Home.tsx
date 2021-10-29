@@ -124,7 +124,7 @@ export const Home: FC<{}> = () => {
         Interested in buying one?
       </pre>
       <pre style={{fontSize: contentFontSize-4}}>
-        Contact <a href="mailto:someone@yoursite.com">g00dnatur3@gmail.com</a>
+        Contact <a href="g00dnatur3@gmail.com">g00dnatur3@gmail.com</a>
       </pre>
 
       <div style={{paddingTop: '3rem'}} />
