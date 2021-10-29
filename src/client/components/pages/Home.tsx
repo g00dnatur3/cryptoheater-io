@@ -15,9 +15,9 @@ export const Home: FC<{}> = () => {
     titleFontSize = 22
     contentFontSize = 18
   } else {
-    imageWidth = 800
-    titleFontSize = 44
-    contentFontSize = 24
+    imageWidth = 550
+    titleFontSize = 40
+    contentFontSize = 22
   }
 
   return (<div style={{
@@ -118,6 +118,17 @@ export const Home: FC<{}> = () => {
         <img style={{width: imageWidth, border: '1px solid ', borderRadius: 10}} src="/images/5.jpeg" />
       </div>
 
+      <div style={{paddingTop: '1rem'}} />
+
+      <div style={{fontSize: contentFontSize-4, border: '1px solid BLACK', borderRadius: 10, margin: 0, padding: 8, paddingBottom: 2}}>
+      <video width={imageWidth*0.8} controls>
+        <source src="/video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      </div>
+
+
+
       <div style={{paddingTop: '2rem'}} />
 
       <pre style={{fontSize: contentFontSize-4}}>
@@ -127,7 +138,7 @@ export const Home: FC<{}> = () => {
         Contact <a href="mailto:g00dnatur3@gmail.com">g00dnatur3@gmail.com</a>
       </pre>
 
-      <div style={{paddingTop: '2.5rem'}} />
+      <div style={{paddingTop: '2rem'}} />
 
 
   </div>)
