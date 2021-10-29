@@ -127,7 +127,7 @@ export const Home: FC<{}> = () => {
         Contact <a href="mailto:g00dnatur3@gmail.com">g00dnatur3@gmail.com</a>
       </pre>
 
-      <div style={{paddingTop: '3rem'}} />
+      <div style={{paddingTop: '2.5rem'}} />
 
 
   </div>)
