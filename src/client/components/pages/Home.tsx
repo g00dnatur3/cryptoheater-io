@@ -118,7 +118,16 @@ export const Home: FC<{}> = () => {
         <img style={{width: imageWidth, border: '1px solid ', borderRadius: 10}} src="/images/5.jpeg" />
       </div>
 
-      <div style={{paddingTop: '2.5rem'}} />
+      <div style={{paddingTop: '2rem'}} />
+
+      <pre style={{fontSize: contentFontSize-4}}>
+        Interested in buying one?
+      </pre>
+      <pre style={{fontSize: contentFontSize-4}}>
+        Contact <a href="mailto:someone@yoursite.com">g00dnatur3@gmail.com</a>
+      </pre>
+
+      <div style={{paddingTop: '3rem'}} />
 
 
   </div>)
