@@ -119,15 +119,26 @@ export const Home: FC<{}> = () => {
       </div>
 
       <div style={{paddingTop: '1rem'}} />
-
-      <div style={{fontSize: contentFontSize-4, border: '1px solid BLACK', borderRadius: 10, margin: 0, padding: 8, paddingBottom: 2}}>
-      <video width={imageWidth*0.8} controls>
-        <source src="/video.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
+      
+      <video
+            id="my-video"
+            className="video-js"
+            controls
+            preload="auto"
+            width={imageWidth*0.8}
+            data-setup="{}"
+          >
+            <source src="/video.mp4" type="video/mp4"/>
+            <p className="vjs-no-js">
+              To view this video please enable JavaScript, and consider upgrading to a
+              web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+              >
+            </p>
       </video>
-      </div>
 
-
+      <script src="https://vjs.zencdn.net/7.7.5/video.js"></script>
 
       <div style={{paddingTop: '2rem'}} />
 
