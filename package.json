@@ -5,7 +5,7 @@
   "scripts": {
     "lint": "tslint 'src/**/*.ts?(x)'",
     "lint-fix": "tslint --fix 'src/**/*.ts?(x)'",
-    "start": "npm run build && concurrently --kill-others \"npm run start-express\"",
+    "start": "concurrently --kill-others \"npm run start-express\"",
     "start-express": "NODE_ENV=production node build/server/express/index.js",
     "build-express": "sudo rm -rf build && node_modules/.bin/tsc && npm run copy-all && webpack --mode production",
     "copy-all": "#npm run copy-ssl && npm run copy-email",
