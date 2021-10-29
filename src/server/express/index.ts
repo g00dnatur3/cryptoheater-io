@@ -96,7 +96,7 @@ if (env === 'production') {
   // }
   // // start ssl server
   // httpsServer = https.createServer(sslOpts, app)
-  port = 80 // prod-port
+  //port = 80 // prod-port
 }
 
 const httpServer = http.createServer(app)
